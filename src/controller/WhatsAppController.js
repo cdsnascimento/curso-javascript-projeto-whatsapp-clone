@@ -128,6 +128,7 @@ class WhatsAppController{
             e.preventDefault();
             let formData = new FormData(this.el.formPanelAddContact);
         });
+<<<<<<< HEAD
 
         this.el.contactsMessagesList.querySelectorAll('.contact-item').forEach (item => {
             item.on('click', e => {
@@ -164,6 +165,8 @@ class WhatsAppController{
     closeMenuAttach(e){
         document.removeEventListener('click', this.closeMenuAttach);
         this.el.menuAttach.removeClass('open');
+=======
+>>>>>>> 569c9aff54bf00598d6a82e86ccdda708b531934
     }
 
     closeAllLeftPanel(){
